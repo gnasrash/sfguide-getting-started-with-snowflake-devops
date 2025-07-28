@@ -1,8 +1,6 @@
-[connections.default]
-warehouse = "QUICKSTART_WH"
-role = "ACCOUNTADMIN"
-database = "QUICKSTART_COMMON"
-schema = "PUBLIC"
-account = "<INSERT YOUR ACCOUNT IDENTIFIER>"
-user = "<INSERT YOUR USERNAME>"
-password = "<INSERT YOUR PASSWORD>"
+default_connection_name = "zhlxcia-kc95775"
+
+[connections.zhlxcia-kc95775]
+account = "zhlxcia-kc95775"
+user = "nasrashvilg1"
+authenticator = "snowflake"
